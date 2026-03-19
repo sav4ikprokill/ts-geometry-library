@@ -1,0 +1,22 @@
+{
+  "name": "testfortrue-conf",
+  "version": "1.0.0",
+  "description": "TypeScript library for working with geometric shapes",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "typescript",
+    "geometry",
+    "library",
+    "shapes"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

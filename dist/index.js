@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.createShape = exports.Triangle = exports.Circle = exports.Rectangle = exports.Shape = void 0;
+var Shape_1 = require("./core/Shape");
+Object.defineProperty(exports, "Shape", { enumerable: true, get: function () { return Shape_1.Shape; } });
+var Rectangle_1 = require("./shapes/Rectangle");
+Object.defineProperty(exports, "Rectangle", { enumerable: true, get: function () { return Rectangle_1.Rectangle; } });
+var Circle_1 = require("./shapes/Circle");
+Object.defineProperty(exports, "Circle", { enumerable: true, get: function () { return Circle_1.Circle; } });
+var Triangle_1 = require("./shapes/Triangle");
+Object.defineProperty(exports, "Triangle", { enumerable: true, get: function () { return Triangle_1.Triangle; } });
+var createShape_1 = require("./factories/createShape");
+Object.defineProperty(exports, "createShape", { enumerable: true, get: function () { return createShape_1.createShape; } });
